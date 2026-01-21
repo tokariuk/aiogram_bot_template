@@ -49,11 +49,11 @@ make migrate
 
 ### 🐛 Bug Reports / ✨ Feature Requests
 
-If you want to report a bug or request a new feature, feel free to open a [new issue](https://github.com/wakaree/aiogram_bot_template/issues/new).
+If you want to report a bug or request a new feature, feel free to open a [new issue](https://github.com/tokariuk/aiogram_bot_template/issues/new).
 
 ### ⬇️ Pull Requests
 
-If you want to help us improve the bot, you can create a new [Pull Request](https://github.com/wakaree/aiogram_bot_template/pulls).
+If you want to help us improve the bot, you can create a new [Pull Request](https://github.com/tokariuk/aiogram_bot_template/pulls).
 
 ## 📝 License
 
