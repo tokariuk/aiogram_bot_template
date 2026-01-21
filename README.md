@@ -1,6 +1,9 @@
 # aiogram_bot_template
 [![Author](https://img.shields.io/badge/Author-@wakaree-blue)](https://wakaree.dev)
+[![Maintainer](https://img.shields.io/badge/Maintainer-@tokariuk-blue)](https://github.com/tokariuk)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+This is a fork of wakaree/aiogram_bot_template with custom modifications and ongoing maintenance.
 
 ## ⚙️ System dependencies
 - Python 3.12+
