@@ -21,6 +21,6 @@ PROCESSED_LOCALES="${PROCESSED_LOCALES#?}"
 
 # Run the script with processed locales as arguments
 # shellcheck disable=SC2086
-uv run ftl-extract \
+uv run ftl extract \
     app assets/messages \
     --default-ftl-file messages.ftl $PROCESSED_LOCALES
