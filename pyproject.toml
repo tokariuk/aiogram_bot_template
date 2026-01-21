@@ -2,26 +2,29 @@
 name = "aiogram_bot_template"
 version = "1.0"
 description = "Aiogram 3.x bot template using PostgreSQL (asyncpg) with SQLAlchemy + alembic"
-authors = ["wakaree <nullmatawasoradesu@gmail.com>"]
+authors = [
+    "Ivan Tokariuk <work.itokariuk@icloud.com>",
+    "wakaree <nullmatawasoradesu@gmail.com>"
+]
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.12,<3.13"
 dependencies = [
-    "aiogram~=3.20.0",
+    "aiogram>=3.24.0",
     "aiogram-contrib>=1.1.4",
-    "aiogram-i18n~=1.4",
-    "aiohttp~=3.11.18",
-    "alembic~=1.14.1",
-    "asyncpg~=0.30.0",
-    "fastapi>=0.115.12",
-    "fluent-runtime~=0.4.0",
-    "greenlet>=3.2.2",
-    "msgspec~=0.18.6",
-    "pydantic~=2.10.6",
-    "pydantic-settings[yaml]~=2.9.1",
-    "redis~=5.2.1",
-    "sqlalchemy~=2.0.41",
-    "uvicorn>=0.34.2",
+    "aiogram-i18n>=1.4",
+    "aiohttp>=3.13.3",
+    "alembic>=1.18.1",
+    "asyncpg>=0.31.0",
+    "fastapi>=0.128.0",
+    "fluent-runtime>=0.4.0",
+    "greenlet>=3.3.0",
+    "msgspec>=0.20.0",
+    "pydantic>=2.12.5",
+    "pydantic-settings[yaml]>=2.12.0",
+    "redis>=7.1.0",
+    "sqlalchemy>=2.0.45",
+    "uvicorn>=0.40.0",
 ]
 
 [project.urls]
@@ -29,9 +32,9 @@ Repository = "https://github.com/wakaree/aiogram_bot_template.git"
 
 [tool.uv]
 dev-dependencies = [
-    "ftl-extract>=0.8.0",
-    "mypy>=1.14.1",
-    "ruff>=0.8.6",
+    "ftl-extract>=0.9.0",
+    "mypy>=1.19.1",
+    "ruff>=0.14.13",
 ]
 
 [tool.black]
